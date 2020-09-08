@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none}.prefix__cls-2,.prefix__cls-3{fill:#fff;stroke-width:2px}.prefix__cls-2{stroke:#282423}.prefix__cls-3{stroke:#e9041e}.prefix__cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__Group_661" data-name="Group 661" transform="translate(-1208 -1078)">
+        <path id="prefix__Rectangle_424" d="M0 0H64V64H0z" class="prefix__cls-1" data-name="Rectangle 424" transform="translate(1208 1078)"/>
+        <g id="prefix__Rectangle_451" class="prefix__cls-2" data-name="Rectangle 451" transform="translate(1217 1092)">
+            <rect width="17" height="42" class="prefix__cls-4" rx="2"/>
+            <rect width="15" height="40" x="1" y="1" class="prefix__cls-1" rx="1"/>
+        </g>
+        <g id="prefix__Rectangle_456" class="prefix__cls-2" data-name="Rectangle 456">
+            <path d="M0 0H17V6H0z" class="prefix__cls-4" transform="translate(1217 1099)"/>
+            <path d="M1 1H16V5H1z" class="prefix__cls-1" transform="translate(1217 1099)"/>
+        </g>
+        <g id="prefix__Rectangle_452" class="prefix__cls-2" data-name="Rectangle 452" transform="translate(1232 1086)">
+            <rect width="8" height="48" class="prefix__cls-4" rx="2"/>
+            <rect width="6" height="46" x="1" y="1" class="prefix__cls-1" rx="1"/>
+        </g>
+        <g id="prefix__Rectangle_468" class="prefix__cls-2" data-name="Rectangle 468" transform="translate(1255 1092)">
+            <rect width="9" height="42" class="prefix__cls-4" rx="2"/>
+            <rect width="7" height="40" x="1" y="1" class="prefix__cls-1" rx="1"/>
+        </g>
+        <g id="prefix__Rectangle_453" class="prefix__cls-2" data-name="Rectangle 453" transform="translate(1238 1088)">
+            <rect width="11" height="46" class="prefix__cls-4" rx="2"/>
+            <rect width="9" height="44" x="1" y="1" class="prefix__cls-1" rx="1"/>
+        </g>
+        <g id="prefix__Rectangle_454" class="prefix__cls-2" data-name="Rectangle 454" transform="translate(1247 1094)">
+            <rect width="10" height="40" class="prefix__cls-4" rx="2"/>
+            <rect width="8" height="38" x="1" y="1" class="prefix__cls-1" rx="1"/>
+        </g>
+        <g id="prefix__Rectangle_460" class="prefix__cls-3" data-name="Rectangle 460" transform="translate(1222 1114)">
+            <rect width="2" height="15" class="prefix__cls-4" rx="1"/>
+            <rect height="13" x="1" y="1" class="prefix__cls-1"/>
+        </g>
+        <g id="prefix__Rectangle_463" class="prefix__cls-2" data-name="Rectangle 463" transform="translate(1227 1117)">
+            <rect width="2" height="12" class="prefix__cls-4" rx="1"/>
+            <rect height="10" x="1" y="1" class="prefix__cls-1"/>
+        </g>
+        <g id="prefix__Rectangle_462" class="prefix__cls-3" data-name="Rectangle 462" transform="rotate(90 67.5 1185.5)">
+            <rect width="11" height="2" class="prefix__cls-4" rx="1"/>
+            <rect width="9" x="1" y="1" class="prefix__cls-1"/>
+        </g>
+    </g>
+</svg>

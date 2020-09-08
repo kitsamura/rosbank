@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <title>РосБанк</title>
+</head>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function(m, e, t, r, i, k, a) {
+    m[i] = m[i] || function() {
+        (m[i].a = m[i].a || []).push(arguments)
+    };
+    m[i].l = 1 * new Date();
+    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(
+        k, a)
+})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(42964584, "init", {
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true,
+    trackHash: true
+});
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/42964584" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<div class="header__mob_menu">
+    <ul>
+        <li><a class="header__nav_link_mob" href="#help">Мы поможем</a></li>
+        <br>
+        <li><a class="header__nav_link_mob" href="#tariff">Тарифы</a></li>
+        <br>
+        <li><a class="header__nav_link_mob" href="#steps">Как это работает</a></li>
+        <br>
+        <li><a class="header__nav_link_mob" href="#phones">Контакты</a></li>
+    </ul>
+    <div class="header__mob_menu_close"></div>
+</div>
+
+<body>
+    <div class="body">
+        <header class="header">
+            <div class="container">
+                <div class="header__nav">
+                    <div class="header__nav_logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <div class="header__nav_logo_mobile">
+                        <img src="img/logomob.svg" alt="">
+                    </div>
+                    <div class="header__nav_links">
+                        <ul>
+                            <li><a class="header__nav_link" href="#help">Мы поможем</a></li>
+                            <li><a class="header__nav_link" href="#tariff">Тарифы</a></li>
+                            <li><a class="header__nav_link" href="#advantages">Почему мы</a></li>
+                            <li><a class="header__nav_link" href="#steps">Как это работает</a></li>
+                            <li><a class="header__nav_link" href="#phones">Контакты</a></li>
+                            <li><a class="header__nav_link_last link__inactive" href="https://amulex.ru/lk">Личный
+                                    кабинет</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__burger_nav">
+                        <a class="header__nav_link_last" href="https://amulex.ru/lk">Личный кабинет</a>
+                        <img class="header__burger_mob" src="img/burger.svg" alt="">
+                    </div>
+                </div>
+                <h1>НАЛОГООБЛОЖЕНИЕ <br>
+                    НЕ ВЫХОДЯ ИЗ ДОМА</h1>
+                <div class="header__subtitle">Ежедневно. 24 часа в сутки</div>
+                <div class="header__btn"><a href="#tariff">Получить вычет</a></div>
+            </div>
+        </header>
+        <main id="help">
+            <div class="container">
+                <h2>Налоговый вычет</h2>
+                <div class="main__subtitle">Вы имеете право на получение налогового вычета, если:</div>
+                <div class="mainflex">
+                    <div class="mainflex__icons">
+                        <div class="mainflex__icon mainflex__icon_first">
+                            <div><img src="img/realty.svg" alt=""></div>
+                            <div class="mainflex__icon_text">Приобретали жилье<br>
+                                <div style="color: transparent">fg</div>
+                            </div>
+                        </div>
+                        <div class="mainflex__icon">
+                            <div><img src="img/life.svg" alt=""></div>
+                            <div class="mainflex__icon_text">Страховали жизнь</div>
+                        </div>
+                    </div>
+                    <div class="mainflex__icons">
+                        <div class="mainflex__icon mainflex__icon_first">
+                            <div><img src="img/iis.svg" alt=""></div>
+                            <div class="mainflex__icon_text">Открывали инвестиционный счет <br>(ИИС)</div>
+                        </div>
+                        <div class="mainflex__icon">
+                            <div><img src="img/nfp.svg" alt=""></div>
+                            <div class="mainflex__icon_text">Делали взносы в <br> негосударственный пенсионный <br> фонд
+                                (НПФ)</div>
+                        </div>
+                    </div>
+                    <div class="mainflex__icons">
+                        <div class="mainflex__icon mainflex__icon_first">
+                            <div><img src="img/money.svg" alt=""></div>
+                            <div class="mainflex__icon_text">Перечисляли деньги на <br> благотворительность</div>
+                        </div>
+                        <div class="mainflex__icon">
+                            <div> <img src="img/study.svg" alt=""></div>
+                            <div class="mainflex__icon_text">Оплачивали обучение или лечение</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section id="tariff">
+            <div class="container">
+                <h2>Выберите свой тариф<span class="tariff__subtitle" id="compareTariffs">Сравнить тарифы <img src="img/redarrow.svg" alt=""></span></h2>
+                <div class="tariff__flex">
+                    <div class="tariff__icon  tariff__icon_first">
+                        <h3>Разовая консультация</h3>
+                        <div class="tariff__icon_subtitle">Получите оперативную помощь по любому юридическому вопросу, в
+                            том
+                            числе вопросам налогообложения</div>
+                        <div class="tariff__item_height">
+                            <p class="tariff__item">Круглосуточная экстренная юридическая консультация
+                                (24/7)</p>
+                        </div>
+                        <div class="tariff__item_price_flex">
+                            <div class="tariff__item_price">
+                                1000 <br>
+                                <span class="tariff__item_price_rub">рублей</span>
+                            </div>
+                            <div id="interestedIn" data-tariff="single" class="tariff__item_btn" onclick="ym(42964584,'reachGoal','rosbank-one')" style="width: 100%; max-width: 182px;">
+                                Заказать тариф
+                                <div class="tariff__item_btn_time">
+                                    срок действия 3 месяца
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff__icon tariff__icon_best">
+                        <h3>Личный адвокат + Налоги online</h3>
+                        <div class="tariff__icon_subtitle">Полноценный комплекс юридических услуг на целый год</div>
+                        <div class="tariff__item_height">
+                            <p class="tariff__item">Круглосуточная экстренная юридическая консультация (24/7) - 4 раза
+                            </p>
+                            <p class="tariff__item">Информирование Клиента о порядке и способах получения документов,
+                                необходимых для получения налогового вычета</p>
+                        </div>
+                        <div class="tariff__item_price_flex">
+                            <div class="tariff__item_price">
+                                5000 <br>
+                                <span class="tariff__item_price_rub">рублей</span>
+                            </div>
+                            <div id="tariffLa" class="tariff__item_btn" data-tariff="vip">
+                                Заказать тариф
+                                <div class="tariff__item_btn_time">
+                                    срок действия 1 год
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff__icon">
+                        <h3>Налоговая помощь online</h3>
+                        <div class="tariff__icon_subtitle">Комплексная юридическая помощь по вопросам налогообложения,
+                            включая подачу декларации с ЭЦП </div>
+                        <div class="tariff__item_height">
+                            <p class="tariff__item">Устная дистанционная консультация по вопросам налогообложения</p>
+                            <p class="tariff__item">Налоговая поддержка</p>
+                            <p class="tariff__item">Подача декларации за Клиента с использованием ЭП</p>
+                        </div>
+                        <div class="tariff__item_price_flex">
+                            <div class="tariff__item_price">
+                                3000 <br>
+                                <span class="tariff__item_price_rub">рублей</span>
+                            </div>
+                            <div id="tariffNalog" class="tariff__item_btn" data-tariff="standart">
+                                Заказать тариф
+                                <div class="tariff__item_btn_time">
+                                    срок действия 1 год
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="docs">
+            <div class="container">
+                <div class="docs__flex">
+                    <div class="docs__title">
+                        ДОКУМЕНТЫ ДЛЯ СКАЧИВАНИЯ
+                    </div>
+                    <div class="docs__items">
+                        <div class="docs__item">
+                            <div class="docs__item_name">
+                                <a href="docs/pravila.docx" target="_blank">Правила пользования для Сертификата «Разовая консультация»</a>
+                            </div>
+                            <div class="docs__item_size">
+                                docx, 70 КБ
+                            </div>
+                        </div>
+                        <div class="docs__item">
+                            <div class="docs__item_name">
+                                <a href="docs/pravila1.docx" target="_blank">Правила пользования для Сертификатов «Налоговая помощь online», «Адвокат + налоги online»</a>
+                            </div>
+                            <div class="docs__item_size">
+                                docx, 74 КБ
+                            </div>
+                        </div>
+                        <div class="docs__item">
+                            <div class="docs__item_name">
+                                <a href="docs/pam1.pdf" target="_blank">Памятка к Cертификату «Разовая консультация»</a>
+                            </div>
+                            <div class="docs__item_size">
+                                pdf, 352 КБ
+                            </div>
+                        </div>
+                        <div class="docs__item">
+                            <div class="docs__item_name">
+                                <a href="docs/pam2.pdf" target="_blank">Памятка к Cертификатам «Налоговая помощь online»
+                                    и «Адвокат+Налоги
+                                    online»</a>
+                            </div>
+                            <div class="docs__item_size">
+                                pdf, 356 КБ
+                            </div>
+                        </div>
+                        <div class="docs__item">
+                            <div class="docs__item_name">
+                                <a href="//advoservice.ru/legacy.pdf" target="_blank">Политика конфиденциальности</a>
+                            </div>
+                            <div class="docs__item_size">
+                                pdf, 571.12 КБ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="phones">
+            <div class="container">
+                <div class="phones">
+                    <div class="phones__item">
+                        8 800 775 03 38 <br>
+                        <span class="phone__item_info">Бесплатно по всей России</span>
+                    </div>
+                    <div class="red__square">
+                    </div>
+                    <div class="phones__item">
+                        +7 499 681 03 38 <br>
+                        <span class="phone__item_info">Для звонков из Москвы</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="advantages">
+            <div class="container">
+                <h2>Преимущества сервиса</h2>
+                <div class="advantages__main">
+                    <div id="componentKit-el-1957" class="ComponentKit__section ComponentKit__section_el_promos">
+                        <div class="ComponentKit__slider">
+                            <div class="AdditionalSlider">
+                                <!-- стрелочки -->
+                                <div class="SwipperSlider SwipperSlider_showArrows">
+                                    <div class="SwipperSlider__panel">
+                                        <div class="SwipperSlider__arrows"><button type="button" class="Arrow Arrow_left Arrow_disabled" tabindex="-1"><span class="Arrow__container"><span class="Arrow__element"><span class="line"></span><svg width="13" height="22" viewBox="0 0 13 22" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>Artboard</title>
+                                                            <polygon points="9.625 20 0 10 9.625 0 11 1.42857 2.75 10 11 18.5714" transform="translate(1 1)" fill="#282423" fill-rule="nonzero"></polygon>
+                                                        </svg></span></span></button><button type="button" class="Arrow Arrow_right" tabindex="-1"><span class="Arrow__container"><span class="Arrow__element"><span class="line"></span><svg width="13" height="22" viewBox="0 0 13 22" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>Artboard</title>
+                                                            <polygon points="1.375 0 11 10 1.375 20 0 18.5714 8.25 10 0 1.42857" transform="translate(1 1)" fill="#282423" fill-rule="nonzero"></polygon>
+                                                        </svg></span></span></button></div>
+                                    </div>
+                                    <!-- стрелочки -->
+                                    <div class="SwipperSlider__body">
+                                        <div class="AdditionalSlider__slider">
+                                            <div class="AdditionalSlider__sliderWrapper">
+                                                <div class="SwipperSlider__slide SwipperSlider__slide_offset AdditionalSlider__slide">
+                                                    <div class="SwipperSlider__slideContent">
+                                                        <div>
+                                                            <div class="AdditionalSlider__title">
+                                                                <h3 class="advantages__main_title">3-НДФЛ</h3>
+                                                            </div>
+                                                            <div class="AdditionalSlider__description">
+                                                                <div class="Article">
+                                                                    <p>Юристы помогут правильно заполнить налоговую
+                                                                        декларацию
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="SwipperSlider__slide SwipperSlider__slide_offset AdditionalSlider__slide">
+                                                    <div class="SwipperSlider__slideContent">
+                                                        <div>
+                                                            <div class="AdditionalSlider__title">
+                                                                <h3 class="advantages__main_title">Льготы</h3>
+                                                            </div>
+                                                            <div class="AdditionalSlider__description">
+                                                                <div class="Article">
+                                                                    <p>Вы сможете воспользоваться налоговыми льготами
+                                                                        при
+                                                                        уплате налога на доходы физлиц
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="SwipperSlider__slide SwipperSlider__slide_offset AdditionalSlider__slide">
+                                                    <div class="SwipperSlider__slideContent">
+                                                        <div>
+                                                            <div class="AdditionalSlider__title">
+                                                                <h3 class="advantages__main_title">Споры</h3>
+                                                            </div>
+                                                            <div class="AdditionalSlider__description">
+                                                                <div class="Article">
+                                                                    <p>Юридическая защита в спорах по требованиям
+                                                                        налогов и
+                                                                        отказе в получении налогового вычета
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="SwipperSlider__slide SwipperSlider__slide_offset AdditionalSlider__slide">
+                                                    <div class="SwipperSlider__slideContent">
+                                                        <div>
+                                                            <div class="AdditionalSlider__title">
+                                                                <h3 class="advantages__main_title">Рекомендации</h3>
+                                                            </div>
+                                                            <div class="AdditionalSlider__description">
+                                                                <div class="Article">
+                                                                    <p>Вам помогут определиться с тем, как лучше
+                                                                        распорядиться вашими правами по налоговым
+                                                                        вычетам
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="steps">
+            <div class="container">
+                <h2>Как это работает</h2>
+                <div class="steps__flex">
+                    <div class="steps__flex_step steps__flex_mob">
+                        <div class="steps__img">
+                            <div><img src="img/step1.svg" alt=""></div>
+                        </div>
+                        <div class="steps__text">
+                            Позвоните по номеру <br>
+                            <a href="tel:88007750338">+7 800 775 03 38</a> или <a href="tel:84996810338">+7 499 681 03 38</a>
+                        </div>
+                    </div>
+                    <div class="steps__flex_step">
+                        <div class="steps__img">
+                            <div> <img src="img/step2.svg" alt=""></div>
+                        </div>
+                        <div class="steps__text">
+                            Назовите номер сертификата и код активации нашему специалисту
+                        </div>
+                    </div>
+                    <div class="steps__flex_step">
+                        <div class="steps__img">
+                            <div><img src="img/step3.svg" alt=""></div>
+                        </div>
+                        <div class="steps__text">
+                            Следуйте инструкциям вашего <br> Личного адвоката
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="questions">
+            <div class="container">
+                <h2>Остались вопросы? <a class="tariff__subtitle" href="https://amulex.ru/#feedback-section">Обратный
+                        звонок <img src="img/redarrow.svg" alt=""></a></h2>
+                <div style="background: #ffffff; margin-top: 60px" class="phones">
+                    <div class="phones__item">
+                        8 800 775 03 38 <br>
+                        <span class="phone__item_info">Бесплатно по всей России</span>
+                    </div>
+                    <div class="red__square">
+                    </div>
+                    <div class="phones__item">
+                        +7 499 681 03 38 <br>
+                        <span class="phone__item_info">Для звонков из Москвы</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer__flex">
+                    <div class="footer__info">
+                        Услуги оказывает ООО "Национальная Юридическая Служба". Ежедневно 24 часа в сутки <br>
+                        127051, г. Москва, Малый Сухаревский переулок, д.9, стр.1, офис 36
+                    </div>
+                    <div class="footer__logo">
+                        <img src="img/amulexlogo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- модальное окно тарифы сравнение-->
+    <div class="tariff__modal">
+        <div class="container container__tariff">
+            <h2 class="tariff__title">Сравнение тарифов <div class="tariff__title_close"></div>
+            </h2>
+            <div class="tariff__table">
+                <div class="tariff__row tariff__row_head">
+                    <div class="tariff__rowTitle description tariff__title_main">
+                        Услуги
+                    </div>
+                    <div class="tariff__rowValue tariff__title_main">
+                        Налоги online
+                    </div>
+                    <div class="tariff__rowValue tariff__title_main">
+                        Личный адвокат <br>
+                        + Налоги online
+                    </div>
+                </div>
+                <div class="tariff__row tariff__row_mob">
+                    <div class="tariff__rowValue tariff__title_main tariff__title_mob">
+                        Налоги online
+                    </div>
+                    <div class="tariff__rowValue tariff__title_main">
+                        Личный адвокат <br>
+                        + Налоги online
+                    </div>
+                </div>
+                <div class="tariff__row_white">
+                    <div class="tariff__rowTitle">
+                        8-800 (Бесплатные звонки из любой точки РФ)
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        включено
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        включено
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            включено
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            включено
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_dark">
+                    <div class="tariff__rowTitle">
+                        Личный Кабинет
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        включено
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        включено
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            включено
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            включено
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_white">
+                    <div class="tariff__rowTitle">
+                        Предоставление по запросу форм документов
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        включено
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        включено
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            включено
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            включено
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_dark">
+                    <div class="tariff__rowTitle">
+                        Устная дистанционная консультация по вопросам налогообложения доходов физического лица и
+                        получения
+                        налоговых вычетов
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        1 раз
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        2 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            1 раз
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_white">
+                    <div class="tariff__rowTitle">
+                        Предоставление Клиенту данных о перечне документов, необходимых для получения налогового вычета
+                        через
+                        Личный Кабинет
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        1 раз
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        2 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            1 раз
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_dark">
+                    <div class="tariff__rowTitle">
+                        Экспертиза документов Клиента
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        1 раз
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        2 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            1 раз
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_white">
+                    <div class="tariff__rowTitle">
+                        Налоговая поддержка
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        1 раз
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        2 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            1 раз
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_dark">
+                    <div class="tariff__rowTitle">
+                        Подача декларации за Клиента с использованием ЭП
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        1 раз
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        2 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            1 раз
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_white">
+                    <div class="tariff__rowTitle">
+                        Круглосуточная экстренная юридическая консультация (24/7)
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        -
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        4 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            -
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            4 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_dark">
+                    <div class="tariff__rowTitle">
+                        Информирование Клиента о порядке и способах получения документов, необходимых для получения
+                        налогового
+                        вычета
+                    </div>
+                    <div class="tariff__rowValue tariff_standart inactive">
+                        -
+                    </div>
+                    <div class="tariff__rowValue tariff_vip inactive">
+                        2 раза
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart">
+                            -
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__row_white tariff__row_head">
+                    <div class="tariff__rowTitle">
+                        Стоимость Сертификата в год
+                    </div>
+                    <div class="tariff__rowValue tariff_standart tariff__rowPrice inactive">
+                        <span class="tariff__rowValue_price">3 000</span> рублей
+                    </div>
+                    <div class="tariff__rowValue tariff_vip tariff__rowPrice inactive">
+                        <span class="tariff__rowValue_price">5 000</span> рублей
+                    </div>
+                    <div class="tariff__rowFlex">
+                        <div class="tariff__rowValue tariff_standart tariff__rowPrice">
+                            <span class="tariff__rowValue_price">3 000</span> рублей
+                        </div>
+                        <div class="tariff__rowValue tariff_vip tariff__rowPrice">
+                            <span class="tariff__rowValue_price">5 000</span> рублей
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- модальное окно разовая консультация -->
+    <div class="consultation">
+        <div class="container__consultation">
+            <h2 class="consultation__title">Разовая консультация <div class="consultation__title_close"></div>
+            </h2>
+            <div class="succsess__message" style="display:none;">
+                <p>Ваша заявка принята</p>
+            </div>
+            <div class="message">
+                <form id="consultationEmail"  >
+                    <p class="consultation__text">Мы всегда стараемся сделать наши сервисы удобными и доступными. </p>
+                    <p class="consultation__text"> Рады сообщить, что в планах запуск юридической услуги "Разовая консультация",
+                        в рамках которой, можно получить оперативную помощь по любому юридическому вопросу, в том числе по
+                        вопросу налогообложения.</p>
+                    <div class="consultation__opinion">
+                        
+                            <p class="consultation__text"></p>Пожалуйста, сообщите нам Ваше мнение:</p>
+                            <div class="consultation__opinion_switch"> <input class="radio" type="radio" name="radio" value="Это будет интересно">
+                                <label for="radio"> Это будет интересно</label></div>
+                            <div class="consultation__opinion_switch"> <input class="radio" type="radio" name="radio" value="Мне неинтересна такая услуга">
+                                <label for="radio"> Мне неинтересна такая услуга</label></div>
+                       
+                    </div>
+                    <div class="consultation__themes">
+                        <p class="consultation__text"></p>Какие именно вопросы могут быть Вам интересны:</p>
+                        <div class="consultation__theme_checkbox">
+                            <label for="checkbox">
+                                <input class="checkbox" type="checkbox" name="checkbox1" value="Вопросы связанные с налогообложением">
+                                <span class="checkbox-custom"></span>
+                                Вопросы связанные с налогообложением</label>
+                        </div>
+                        <div class="consultation__theme_checkbox">
+                            <label for="checkbox">
+                                <input class="checkbox" type="checkbox" name="checkbox2" value="Судебные споры">
+                                <span class="checkbox-custom"></span>
+                                Судебные споры</label>
+                        </div>
+                        <div class="consultation__theme_checkbox">
+                            <label for="checkbox">
+                                <input class="checkbox" type="checkbox" name="checkbox3" value="В зависимости от жизненной ситуации">
+                                <span class="checkbox-custom"></span>
+                                В зависимости от жизненной ситуации</label>
+                        </div>
+                    </div>
+                    <div class="consultation__contacts">
+                        <label class="consultation__contacts_email_text" for="email">укажите email (мы сообщим вам как
+                            только услуга будет доступна):</label>
+                        <input class="consultation__email" type="email" name='email' id="email2" required>
+                        <label class="consultation__agree" for="checkbox">
+                            <input class="checkbox" type="checkbox" name="checkbox-test2" id="agree2" checked required>
+                            <span class="checkbox-custom"></span>
+                            Даю согласие на <a target="_blank" href="docs/agreement.pdf">обработку моих персональных данных</a></label>
+                        <div>
+                            <button id="consultationBtn" class="consultation__btn">
+                                Отправить
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- модальное окно заказ тарифа -->
+    <div class="offer__modal">
+        <div class="container__consultation">
+            <div class="consultation__block">
+                <h2 class="offer__title">Оформить тариф <div id="offerClose" class="consultation__title_close"></div>
+                </h2>
+                <form id="buyForm" action="https://pay2.amulex.ru/sales/external-sale/create" method="post">
+                    <input type="hidden" name="sale[return_url]" value="">
+                    <input type="hidden" name='rate_id' value="" id='sale_id'>
+                    <input type="hidden" name='token' id='sale_key' value="">
+                    <input type="hidden" name='rate_cost' value="">
+                    <div>
+                        <label class="offer__label" for="lastname">фамилия</label><br>
+                        <input class="offer__input" type="text" name="sale[lastname]" id="lastname" required>
+                    </div>
+                    <div class="offer__flex">
+                        <div>
+                            <label class="offer__label" for="name">имя</label><br>
+                            <input class="offer__input offer__label_flex offer__label_flex_first" type="text" name="sale[name]" id="firstname" required>
+                        </div>
+                        <div>
+                            <label class="offer__label" for="surname">отчество</label><br>
+                            <input class="offer__input offer__label_flex" type="text" name="sale[surname]" id="surname" required>
+                        </div>
+                    </div>
+                    <div class="offer__flex">
+                        <div>
+                            <label class="offer__label" for="phone">номер телефона</label><br>
+                            <input class="offer__input offer__label_flex offer__label_flex_first" placeholder="+7 (   )" type="tel" name="sale[mobile]" id="phone" required>
+                        </div>
+                        <div>
+                            <label class="offer__label" for="email">адрес электронной почты</label><br>
+                            <input class="offer__input offer__label_flex input__mail invalid" type="email" name="sale[email]" id="email" required>
+                        </div>
+                    </div>
+                    <div class="offer__flex">
+                        <div>
+                            <input id="promo" placeholder="Промокод (если есть)" class="offer__input_promo offer__label_flex_first" type="text" name="promocode">
+                            <span class="promo__span">Применить</span>
+                        </div>
+                        <div>
+                            <input placeholder="Код сотрудника DSA (если есть)" class="offer__input_promo offer__input_promo_dsa" type="text" name="creator[created_by_tabel_number]">
+                        </div>
+                    </div>
+                    <label class="offer__agree" for="checkbox">
+                        <input class="checkbox" type="checkbox" name="checkbox-test" id="agree" checked required>
+                        <span class="checkbox-custom"></span>
+                        Даю согласие на <a target="_blank" href="docs/agreement.pdf">обработку моих персональных данных</a></label>
+                    <div class="offer__flex_btn">
+                        <div class="offer__label_flex_first">
+                            <span id="offerPrice" class="offer__price">5 000</span>
+                            <span class="offer__price_rub">рублей / год</span>
+                        </div>
+                        <div>
+                            <div>
+                                <button id="offerBtn" class="consultation__btn">
+                                    Оформить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+     <!-- Подложка под модальным окном -->
+     <div class="overlay" id="overlay-modal"></div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

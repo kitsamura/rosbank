@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .prefix__cls-1,.prefix__cls-3{fill:#fff}.prefix__cls-1,.prefix__cls-2{stroke:#282423;stroke-width:2px}.prefix__cls-2,.prefix__cls-4{fill:none}.prefix__cls-2{stroke-linecap:round}.prefix__cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__Group_658" data-name="Group 658" transform="translate(-768 -850)">
+        <g id="prefix__Rectangle_426" class="prefix__cls-1" data-name="Rectangle 426">
+            <path d="M0 0h47v31a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V0z" class="prefix__cls-5" transform="translate(777 864)"/>
+            <path d="M2 1h43a1 1 0 0 1 1 1v29a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V2a1 1 0 0 1 1-1z" class="prefix__cls-4" transform="translate(777 864)"/>
+        </g>
+        <g id="prefix__Rectangle_427" class="prefix__cls-1" data-name="Rectangle 427" transform="translate(775 858)">
+            <rect width="51" height="8" class="prefix__cls-5" rx="3"/>
+            <rect width="49" height="6" x="1" y="1" class="prefix__cls-4" rx="2"/>
+        </g>
+        <path id="prefix__Line_38" d="M12 0L0 9" class="prefix__cls-2" data-name="Line 38" transform="translate(788.5 897.5)"/>
+        <path id="prefix__Line_39" d="M0 0L12 9" class="prefix__cls-2" data-name="Line 39" transform="translate(802.5 897.5)"/>
+        <g id="prefix__Exclusion_1" class="prefix__cls-3" data-name="Exclusion 1">
+            <path d="M3346 23c-4.962 0-9-4.037-9-9 0-4.624 3.507-8.445 8-8.944V15h9.945c-.499 4.494-4.32 8-8.945 8z" class="prefix__cls-5" transform="translate(-2546 867)"/>
+            <path d="M3346 22c3.721 0 6.857-2.553 7.747-6H3344V6.254c-3.446.89-6 4.026-6 7.746 0 4.412 3.59 8 8 8m0 2c-5.514 0-10-4.486-10-10s4.486-10 10-10v10h10c0 5.515-4.486 10-10 10z" style="fill:#282423;stroke:none" transform="translate(-2546 867)"/>
+        </g>
+        <g id="prefix__Intersection_2" class="prefix__cls-3" data-name="Intersection 2">
+            <path d="M3354.946 13H3347V5.057c.603.072 1.222.21 1.936.432h.002l.003.001c1.664.505 3.187 1.61 4.289 3.11.959 1.305 1.543 2.81 1.716 4.4z" class="prefix__cls-5" transform="translate(-2544 865)"/>
+            <path d="M3353.753 12c-.254-1.005-.702-1.955-1.33-2.809-.974-1.327-2.314-2.301-3.773-2.744l-.005-.001-.005-.002c-.223-.069-.435-.13-.64-.181V12h5.753m2.247 2h-10V4c1.017 0 1.997.152 3.231.533 3.788 1.15 6.769 4.96 6.769 9.467z" style="fill:#e9041e;stroke:none" transform="translate(-2544 865)"/>
+        </g>
+        <path id="prefix__Rectangle_449" d="M0 0H64V64H0z" class="prefix__cls-4" data-name="Rectangle 449" transform="translate(768 850)"/>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff;stroke-width:2px;stroke:#282423}.prefix__cls-3{fill:none}.prefix__cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__Group_647" data-name="Group 647" transform="translate(-279 -1127)">
+        <g id="prefix__Rectangle_408" class="prefix__cls-1" data-name="Rectangle 408" transform="rotate(30 -1962.403 1130.344)">
+            <rect width="30" height="16" class="prefix__cls-4" rx="3"/>
+            <rect width="28" height="14" x="1" y="1" class="prefix__cls-3" rx="2"/>
+        </g>
+        <g id="prefix__Rectangle_407" class="prefix__cls-1" data-name="Rectangle 407" transform="translate(292 1149)">
+            <rect width="40" height="27" class="prefix__cls-4" rx="3"/>
+            <rect width="38" height="25" x="1" y="1" class="prefix__cls-3" rx="2"/>
+        </g>
+        <g id="prefix__Rectangle_409" data-name="Rectangle 409" transform="translate(298 1155)" style="stroke:#e9041e;fill:#fff;stroke-width:2px">
+            <rect width="7" height="7" class="prefix__cls-4" rx="3.5"/>
+            <rect width="5" height="5" x="1" y="1" class="prefix__cls-3" rx="2.5"/>
+        </g>
+        <path id="prefix__Rectangle_448" d="M0 0H64V64H0z" class="prefix__cls-3" data-name="Rectangle 448" transform="translate(279 1127)"/>
+    </g>
+</svg>
